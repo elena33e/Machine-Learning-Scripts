@@ -22,7 +22,7 @@ from sklearn.decomposition import PCA
 
 
 # Încarcă dataset-ul
-data = pd.read_csv("C:/Users/elena/OneDrive/Desktop/Cursuri master/ML/mental_health/Mental_health_Preprocessed_MICE.csv", low_memory=False)
+data = pd.read_csv("https://github.com/elena33e/Machine-Learning-Scripts/blob/main/Mental_health_Preprocessed_MICE.csv", low_memory=False)
 
 # Verifică structura datelor
 print(data.head())  
