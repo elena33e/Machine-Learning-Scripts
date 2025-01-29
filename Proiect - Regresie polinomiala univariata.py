@@ -19,7 +19,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 
 # Încarcă dataset-ul cu low_memory=False
-data = pd.read_csv("C:/Users/elena/OneDrive/Desktop/Cursuri master/ML/mental_health/Mental_health_Preprocessed_MICE.csv", low_memory=False)
+data = pd.read_csv("https://github.com/elena33e/Machine-Learning-Scripts/blob/main/Mental_health_Preprocessed_MICE.csv", low_memory=False)
 
 # Verifică structura datelor
 print(data.head())  # Primele 5 rânduri
