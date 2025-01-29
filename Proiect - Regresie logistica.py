@@ -16,7 +16,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import seaborn as sns
 
 # Încarcă dataset-ul cu low_memory=False
-data = pd.read_csv("C:/Users/elena/OneDrive/Desktop/Cursuri master/ML/mental_health/Mental_health_Preprocessed_MICE.csv", low_memory=False)
+data = pd.read_csv("https://github.com/elena33e/Machine-Learning-Scripts/blob/main/Mental_health_Preprocessed_MICE.csv", low_memory=False)
 
 
 target_column = 'Depression (%)'
